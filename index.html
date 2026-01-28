@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,10 +21,10 @@
 <body>
     <div id="auth-overlay" class="auth-overlay hidden">
         <div class="auth-card">
-            <div class="auth-icon">✨</div>
+            <div class="auth-icon">âœ¨</div>
             <h2>Activar Gemini 3 Pro</h2>
-            <p>Los modelos Pro requieren una API Key de un proyecto de Google Cloud con facturación habilitada.</p>
-            <a href="https://ai.google.dev/gemini-api/docs/billing" target="_blank" class="billing-link">Guía de Facturación</a>
+            <p>Los modelos Pro requieren una API Key de un proyecto de Google Cloud con facturaciÃ³n habilitada.</p>
+            <a href="https://ai.google.dev/gemini-api/docs/billing" target="_blank" class="billing-link">GuÃ­a de FacturaciÃ³n</a>
             <button id="connect-cloud-btn" class="btn generate-btn">Vincular Proyecto Cloud</button>
         </div>
     </div>
@@ -37,7 +37,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 0 24 24" width="18px" fill="currentColor"><path d="M12 6v3l4-4-4-4v3c-4.42 0-8 3.58-8 8 0 1.57.46 3.03 1.24 4.26L6.7 14.8c-.45-.83-.7-1.79-.7-2.8 0-3.31 2.69-6 6-6zm6.76 1.74L17.3 9.2c.44.84.7 1.79.7 2.8 0 3.31-2.69 6-6 6v-3l-4 4 4 4v-3c4.42 0 8-3.58 8-8 0-1.57-.46-3.03-1.24-4.26z"/></svg>
                 </button>
             </div>
-            <p>Transformación artística profesional con Gemini 3 Pro</p>
+            <p>TransformaciÃ³n artÃ­stica profesional con Gemini 3 Pro</p>
         </header>
         
         <main>
@@ -50,7 +50,7 @@
                     </label>
                     <button id="camera-btn" class="btn secondary-btn">
                         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="currentColor"><circle cx="12" cy="12" r="3.2"/><path d="M9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/></svg>
-                        Cámara
+                        CÃ¡mara
                     </button>
                 </div>
 
@@ -72,13 +72,13 @@
                 </div>
 
                 <div class="control-section">
-                    <label for="style-select">Estilo Artístico</label>
+                    <label for="style-select">Estilo ArtÃ­stico</label>
                     <div class="select-wrapper">
                         <select id="style-select">
                             <option value="Watercolor Painting">Acuarela</option>
                             <option value="Cyberpunk Neon">Cyberpunk</option>
-                            <option value="Oil Painting">Óleo</option>
-                            <option value="Pencil Sketch">Boceto a Lápiz</option>
+                            <option value="Oil Painting">Ã“leo</option>
+                            <option value="Pencil Sketch">Boceto a LÃ¡piz</option>
                             <option value="Anime Style">Anime / Manga</option>
                             <option value="Pop Art">Pop Art</option>
                             <option value="Van Gogh Starry Night">Van Gogh</option>
@@ -102,13 +102,13 @@
                         <video id="result-video" class="hidden" controls loop autoplay playsinline></video>
                     </div>
                     
-                    <p id="output-placeholder">Tu obra aparecerá aquí</p>
+                    <p id="output-placeholder">Tu obra aparecerÃ¡ aquÃ­</p>
                 </div>
                 
                 <div id="edit-section" class="control-section hidden">
                     <label for="edit-prompt">Refinamiento por IA (Lenguaje Natural)</label>
                     <div class="edit-input-group">
-                        <input type="text" id="edit-prompt" placeholder="Ej: 'Añade más contraste' o 'Cambia el cielo a rojo'">
+                        <input type="text" id="edit-prompt" placeholder="Ej: 'AÃ±ade mÃ¡s contraste' o 'Cambia el cielo a rojo'">
                         <button id="apply-edit-btn" class="btn primary-btn">Aplicar</button>
                     </div>
                 </div>
