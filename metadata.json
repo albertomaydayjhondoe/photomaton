@@ -1,0 +1,7 @@
+{
+  "name": "Media Style Transfer",
+  "description": "Upload a photo or video and transform it into a different artistic style using Gemini.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
